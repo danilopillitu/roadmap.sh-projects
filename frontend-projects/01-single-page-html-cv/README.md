@@ -1,26 +1,53 @@
-# Single-Page HTML CV
+# 📄 Single-Page HTML CV
 
-Welcome! This is my first practice project for the [roadmap.sh](https://roadmap.sh/projects/single-page-cv) frontend path.
+My very first frontend project from [roadmap.sh](https://roadmap.sh): a one-page online CV built with **only HTML**. No CSS, no JavaScript, just pure HTML!
 
-Please note: **this is a practice exercise** and not a real CV/resume! I built this to practice the absolute basics of HTML and web page structuring.
+🔗 **Project page on roadmap.sh:** https://roadmap.sh/projects/single-page-cv
 
-## 📂 Project Structure
+📂 **Project repository:** https://github.com/danilopillitu/roadmap.sh-projects/tree/main/frontend-projects/01-single-page-html-cv
 
-Inside this folder, you will find:
+## What is this?
 
-- `index.html` – The main file containing all the HTML structure and content.
-- `images/` – A folder containing the project preview screenshot (`screenshot_Single-Page-HTML-CV.png`) and the favicon (`CV_icon.png`).
-- `.gitignore` – A file telling Git which files to ignore.
+A web page with the CV of a made-up person, **Mario Rossi** 🇮🇹, frontend developer and data scientist. All the data is fake and only used to practice!
 
-## 🛠️ What I Practiced
+The page has:
 
-As a beginner, building this project helped me learn and understand:
+- A header with name, job title and contacts
+- Skills
+- Education
+- Experience
+- A footer with links to LinkedIn and GitHub
 
-- Using **semantic HTML5 elements** (`<header>`, `<main>`, `<section>`, `<article>`, `<address>`, `<time>`) instead of generic `<div>` tags.
-- Organizing text content with proper headings and lists.
-- Adding basic SEO meta tags and Open Graph tags in the `<head>` section to see how web previews work.
-- Structuring a clean folder with assets and images.
+## 🗂️ Project structure
 
----
+```
+01-single-page-html-cv/
+├── images/
+│   ├── CV_icon.png
+│   └── screenshot_Single-Page-HTML-CV.png
+├── index.html
+└── readme.md
+```
 
-_Feedback or suggestions are always welcome as I learn!_
+## 🚀 How to run the project
+
+No installation needed, just a browser! 🌍
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/danilopillitu/roadmap.sh-projects.git
+   ```
+2. Go into the project folder:
+   ```bash
+   cd roadmap.sh-projects/frontend-projects/01-single-page-html-cv
+   ```
+3. Open `index.html` in your browser (double-click it or drag it into a browser window) ✨
+
+## 📚 What I learned
+
+- How to write the structure of an HTML page from scratch
+- How to use semantic tags (`header`, `main`, `section`, `article`, `footer`)
+- How to add meta tags for SEO and social previews
+- How to add a favicon
+
+Thanks for stopping by! 👋
