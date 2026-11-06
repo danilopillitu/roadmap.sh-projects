@@ -1,15 +1,7 @@
-## 🚀 How to run the project
+# 🗺️ Roadmap.sh Projects
 
-No installation needed, just a browser! 🌍
+Hi there! 👋 This repository collects the projects I build while following the [roadmap.sh](https://roadmap.sh/) learning paths. I'm learning step by step, one project at a time! 🌱
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/danilopillitu/roadmap.sh-projects.git
-   ```
-2. Go into the project folder:
-   ```bash
-   cd roadmap.sh-projects/frontend-projects/01-single-page-html-cv
-   ```
-3. Open `index.html` in your browser (double-click it or drag it into a browser window) ✨
+## 🎨 Frontend Projects
 
-https://roadmap.sh/projects/single-page-cv
+- [Single-Page HTML CV](https://roadmap.sh/projects/single-page-cv) - A single-page CV (Curriculum Vitae) using only HTML.
