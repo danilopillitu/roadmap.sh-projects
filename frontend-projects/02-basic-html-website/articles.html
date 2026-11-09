@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO -->
     <meta name="author" content="Danilo Pillitu">
-    <meta name="description" content="An HTML-only website test">
-    <meta name="keywords" content="HTML, webpage">
+    <meta name="description" content="The articles page of an HTML-only website test">
+    <meta name="keywords" content="HTML, webpage, articles">
     <!-- OPEN GRAPH -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Basic HTML Webpage">
-    <meta property="og:description" content="A basic HTML website for the frontend project from Roadmap.sh website">
+    <meta property="og:title" content="Articles | Basic HTML Webpage">
+    <meta property="og:description"
+        content="An articles page of a basic HTML website for the frontend project from Roadmap.sh website">
     <meta property="og:url"
         content="https://github.com/danilopillitu/roadmap.sh-projects/tree/main/frontend-projects/02-basic-html-website">
-    <meta property="og:image"
-        content="https://github.com/danilopillitu/roadmap.sh-projects/blob/main/frontend-projects/02-basic-html-website/images/screenshot_basic-html-website.png">
+    <meta property="og:image" content="">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Preview of a Basic HTML Website">
+    <meta property="og:image:alt" content="Preview of the articles page of a Basic HTML Website">
     <meta property="og:locale" content="en_US">
     <!-- TWITTER / X -->
     <meta name="twitter:card" content="summary_large_image">
     <!-- FAVICON -->
     <link rel="icon" href="images/Logo.png">
     <!-- TAB TITLE -->
-    <title>Basic HTML Webpage</title>
+    <title>Articles | Basic HTML Webpage</title>
 </head>
 
 <body>
@@ -36,12 +36,59 @@
         <div id="logo">
             <a href="index.html"><img src="images/Logo.png" alt="Logo" width="100" height="100"></a>
         </div>
-        <p>Mario Rossi</p>
+        <p class="logo-name">Mario Rossi</p>
 
         <!-- NAVIGATION BAR -->
-        <nav>
+        <nav class="menù">
             <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
             <a href="articles.html">Articles</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <!-- HEADING AND DESCRIPTION -->
+        <section class="articles-heading">
+            <h1 class="articles-title">Articles</h1>
+            <p class="articles-introduction">The most significant articles for my education.</p>
+        </section>
+    </header>
+
+    <main>
+        <article class="articles">
+            <h2><a href="https://article_no1.org" target="_blank">Article #1</a></h2>
+            <p>Here a brief of the article contents:</p>
+            <p>Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Dolor iure natus culpa rem
+                iste. Necessitatibus
+                distinctio pariatur, molestias dicta id voluptatibus dolores, explicabo, rem ducimus ab dolorum?
+                Assumenda, dolores iusto!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <em>Dolor iure natus culpa rem iste</em>.
+                Necessitatibus
+                distinctio pariatur, molestias dicta id voluptatibus dolores, explicabo, rem ducimus ab dolorum?
+                Assumenda, dolores iusto!</p>
+        </article>
+        <article class="articles">
+            <h2><a href="https://article_no2.org" target="_blank">Article #2</a></h2>
+            <p>Here a brief of the article contents:</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure natus culpa rem
+                iste. Necessitatibus
+                distinctio pariatur, <strong>molestias dicta</strong> id voluptatibus dolores, explicabo, rem ducimus ab
+                dolorum?
+                <em>Assumenda, dolores iusto</em>!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure natus culpa rem iste. Necessitatibus
+                distinctio pariatur, molestias dicta id voluptatibus dolores, explicabo, rem ducimus ab dolorum?
+                Assumenda, dolores iusto!</p>
+        </article>
+        <article class="articles">
+            <h2><a href="https://article_no3.org" target="_blank">Article #3</a></h2>
+            <p>Here a brief of the article contents:</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure natus culpa rem
+                iste. Necessitatibus
+                distinctio pariatur, molestias dicta id voluptatibus dolores, explicabo, rem ducimus ab dolorum?
+                Assumenda, dolores iusto!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure natus culpa rem iste. Necessitatibus
+                distinctio pariatur, molestias dicta id voluptatibus dolores, explicabo, rem ducimus ab dolorum?
+                Assumenda, dolores iusto!</p>
+        </article>
+    </main>
+
+    <footer></footer>
