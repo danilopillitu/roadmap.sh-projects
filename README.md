@@ -5,3 +5,5 @@ Hi there! 👋 This repository collects the projects I build while following the
 ## 🎨 Frontend Projects
 
 - [Single-Page HTML CV](https://roadmap.sh/projects/single-page-cv) - A single-page CV (Curriculum Vitae) using only HTML.
+
+- [Basic HTML Website](https://roadmap.sh/projects/basic-html-website) - A multi-page website using only HTML.
